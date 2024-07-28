@@ -22,7 +22,7 @@ function LandingPage() {
     return(
         <div className="app h-max w-full pb-5 relative">
           <div className='w-full bg-yellow-300 font-semibold'>
-            <h2 className=' flex items-center justify-center h-8'>
+            <h2 className=' flex items-center justify-center h-8 text-slate-800'>
             The Bootcamp 2.0 has been upgraded to 3.0.
             </h2>
           </div>
@@ -51,14 +51,14 @@ function LandingPage() {
             </ul>
           </div>
             <div className="pre w-full h-auto bg-gradient-to-br from-sky-400 to-teal-500 text-white p-6 rounded-lg shadow-md mt-6">
-              <h1>What are the Pre-requisites?</h1>
+              <h1 className='text-2xl font-bold'>What are the Pre-requisites?</h1>
             </div>
             <div className="pre w-full h-auto bg-gradient-to-br from-sky-400 to-teal-500 text-white p-6 rounded-lg shadow-md mt-6">
-              <h1>Course Curriculum</h1>
+              <h1 className='text-2xl font-bold'>Course Curriculum</h1>
               <DropDown />
             </div>
             <div className="pre w-full h-auto bg-gradient-to-br from-sky-400 to-teal-500 text-white p-6 rounded-lg shadow-md mt-6">
-              <h1>Frequently Asked Question?</h1>
+              <h1 className='text-2xl font-bold'>Frequently Asked Question?</h1>
               <DropDown />
             </div>
           </div>

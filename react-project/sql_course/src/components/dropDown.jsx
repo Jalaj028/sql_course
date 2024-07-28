@@ -16,7 +16,7 @@ export default function DropDown() {
           aria-controls="panel1-content"
           id="panel1-header"
         >
-          <Typography>Module 1: Introduction to SQL</Typography>
+          <Typography><span className='font-bold'>Module 1:</span> Introduction to SQL</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{textAlign:"left"}}>
@@ -46,7 +46,7 @@ export default function DropDown() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography>Module 2: Basic SQL Queries</Typography>
+          <Typography><span className='font-bold'>Module 2:</span> Basic SQL Queries</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{textAlign:"left"}}>
@@ -80,7 +80,7 @@ export default function DropDown() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography> Module 3: Data Manipulation</Typography>
+          <Typography><span className='font-bold'>Module 3:</span> Data Manipulation</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{textAlign:"left"}}>
@@ -111,7 +111,7 @@ export default function DropDown() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography> Module 4: Advanced Data Retrieval</Typography>
+          <Typography><span className='font-bold'>Module 4:</span> Advanced Data Retrieval</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{textAlign:"left"}}>
@@ -142,7 +142,7 @@ export default function DropDown() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography>Module 5: Advanced SQL Functions</Typography>
+          <Typography><span className='font-bold'>Module 5:</span> Advanced SQL Functions</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{textAlign:"left"}}>
@@ -171,7 +171,7 @@ export default function DropDown() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography> Module 6: Managing Database Objects</Typography>
+          <Typography><span className='font-bold'>Module 6:</span> Managing Database Objects</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{textAlign:"left"}}>
@@ -201,7 +201,7 @@ export default function DropDown() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography>Module 7: Intermediate Topics</Typography>
+          <Typography><span className='font-bold'>Module 7:</span> Intermediate Topics</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{textAlign:"left"}}>
@@ -232,7 +232,7 @@ export default function DropDown() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography>Module 8: Additional SQL Topics</Typography>
+          <Typography><span className='font-bold'>Module 8:</span> Additional SQL Topics</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{textAlign:"left"}}>
@@ -265,7 +265,7 @@ export default function DropDown() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography>Module 9: Practical Projects and Case Studies</Typography>
+          <Typography><span className='font-bold'>Module 9:</span> Practical Projects and Case Studies</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{textAlign:"left"}}>
