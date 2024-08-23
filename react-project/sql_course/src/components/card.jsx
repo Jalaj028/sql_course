@@ -12,14 +12,14 @@ export default function MediaCard() {
     <Card sx={{}}>
       <CardMedia className=' rounded-lg'
         style={{margin:"10px"}}
-        sx={{ height: 300}}
-        image="https://powerbi.datumdiscovery.com/img/herobanner.png"
+        sx={{ height: 500}}
+        image="https://media.licdn.com/dms/image/v2/D4D03AQHXC5HnO9CPCQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1677234139382?e=1729728000&v=beta&t=itdud9nRWJ095TTdMxhlOU-sbqM9mkIuT55r3ZUSYXM"
         title="green iguana"
       />
       <CardContent>
       <CardActions>
-        <Button size="medium" variant='contained'>Share</Button>
-        <Button size="medium" variant='contained'>Learn More</Button>
+        <Button size="medium" variant='contained' onClick={{}}>₹ India Checkout</Button>
+        <Button size="medium" variant='contained'>₹ Global Checkout</Button>
       </CardActions>
         <Typography gutterBottom variant="h5" component="div">
         This Course Includes:
